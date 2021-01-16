@@ -1,0 +1,187 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Sprite",
+					"sid": 198390056367977
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Sprite",
+					"sid": 889260795411176,
+					"parameters": {
+						"object": "AvatarBox",
+						"layer": "\"Characters\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "AvatarBox",
+					"sid": 437801428359468,
+					"parameters": {
+						"object": "Sprite",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "AvatarBox",
+					"sid": 512786212837391,
+					"parameters": {
+						"child": "Sprite",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": false,
+						"transform-h": false,
+						"transform-a": false,
+						"transform-z-elevation": false,
+						"destroy-with-parent": true
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "AvatarBox",
+					"sid": 879884035215828,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 816243379145954
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "AvatarBox",
+					"sid": 356626180574838,
+					"behaviorType": "Platform"
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 468991156036061,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 674289903264788,
+					"parameters": {
+						"animation": "\"Walk R\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 357449866709516
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "AvatarBox",
+					"sid": 181523353508372,
+					"behaviorType": "Platform"
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 745805335369007,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 296149098283576,
+					"parameters": {
+						"animation": "\"Walk L\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 877390998680842
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "AvatarBox",
+					"sid": 821855243473463,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [],
+			"sid": 114701985985668,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 290272795638182,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 625907943134983,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 808508668758980
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 173466391996865,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 915519122757120,
+					"parameters": {
+						"animation": "\"idle L\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 388956425109488
+		}
+	],
+	"sid": 543682759848282
+}

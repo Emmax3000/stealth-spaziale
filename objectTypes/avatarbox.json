@@ -1,0 +1,65 @@
+{
+	"name": "AvatarBox",
+	"plugin-id": "Sprite",
+	"sid": 312560727412908,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 808697806255538
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 579994122413900
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 695638143406269
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 423,
+						"height": 827,
+						"originX": 0.5,
+						"originY": 0.9901960784313726,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4888289,
+						"collisionPoly": {
+							"points": [
+								0.2556373886161121,
+								0,
+								0.763275140934715,
+								0,
+								0.763275140934715,
+								1,
+								0.2698217857792327,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 214729809916246,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
