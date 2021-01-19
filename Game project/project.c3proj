@@ -78,12 +78,23 @@
 			"Tilemap",
 			"AvatarBox",
 			"Sprite",
-			"Keyboard"
+			"Keyboard",
+			"ArmFront",
+			"ArmBack"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
-	"containers": [],
+	"containers": [
+		{
+			"members": [
+				"ArmFront",
+				"ArmBack",
+				"Sprite"
+			],
+			"selectMode": "normal"
+		}
+	],
 	"families": {
 		"items": [],
 		"subfolders": []

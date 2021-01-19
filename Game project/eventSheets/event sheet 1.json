@@ -60,11 +60,77 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-moving",
-					"objectClass": "AvatarBox",
-					"sid": 356626180574838,
-					"behaviorType": "Platform"
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 287410227338991,
+					"parameters": {
+						"animation": "\"Crouch L\""
+					}
 				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 915340711456321,
+					"parameters": {
+						"animation": "\"Crouch R\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "AvatarBox",
+					"sid": 554653605857668,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 289857044085946,
+			"disabled": true,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 558933226908863,
+					"parameters": {
+						"animation": "\"Crouch L\""
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 908753360790968,
+					"parameters": {
+						"animation": "\"Crouch R\""
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "AvatarBox",
+					"sid": 162570804011468,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 638490055446358,
+			"disabled": true,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
 				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
@@ -91,15 +157,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-moving",
-					"objectClass": "AvatarBox",
-					"sid": 181523353508372,
-					"behaviorType": "Platform"
-				},
-				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 745805335369007,
+					"sid": 731034381629325,
 					"parameters": {
 						"key": 37
 					}
@@ -109,28 +169,14 @@
 				{
 					"id": "set-animation",
 					"objectClass": "Sprite",
-					"sid": 296149098283576,
+					"sid": 969133695345131,
 					"parameters": {
 						"animation": "\"Walk L\"",
 						"from": "beginning"
 					}
 				}
 			],
-			"sid": 877390998680842
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-moving",
-					"objectClass": "AvatarBox",
-					"sid": 821855243473463,
-					"behaviorType": "Platform"
-				}
-			],
-			"actions": [],
-			"sid": 114701985985668,
-			"disabled": true
+			"sid": 594775767468654
 		},
 		{
 			"eventType": "block",
@@ -181,6 +227,527 @@
 				}
 			],
 			"sid": 388956425109488
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 706717421575947,
+					"parameters": {
+						"key": 40
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 388544631820606,
+					"parameters": {
+						"animation": "\"idle L\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 983333855195445
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 551699131584211,
+					"parameters": {
+						"key": 40
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 297025034296305,
+					"parameters": {
+						"animation": "\"Rampino R\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 559856257802107,
+					"parameters": {
+						"animation": "\"Crouch R\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 323045307885186
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 302335746381022,
+					"parameters": {
+						"key": 40
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 480681938525724,
+					"parameters": {
+						"animation": "\"idle\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 857279373141971,
+					"parameters": {
+						"animation": "\"Crouch R\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 916864347033172
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 426094940724436,
+					"parameters": {
+						"key": 40
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 146069968354396,
+					"parameters": {
+						"animation": "\"Walk R\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 244498322132638,
+					"parameters": {
+						"animation": "\"Crouch R\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 803075415474602
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 554796765380232,
+					"parameters": {
+						"key": 40
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 542636949562984,
+					"parameters": {
+						"animation": "\"Rampino L\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 188287748695109,
+					"parameters": {
+						"animation": "\"Crouch L\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 898980135309531
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 165336688847156,
+					"parameters": {
+						"key": 40
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 534105635965122,
+					"parameters": {
+						"animation": "\"idle L\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 491584105881854,
+					"parameters": {
+						"animation": "\"Crouch L\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 740377652206119
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 164929495886932,
+					"parameters": {
+						"key": 40
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 982515324987884,
+					"parameters": {
+						"animation": "\"Walk L\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 271565395959317,
+					"parameters": {
+						"animation": "\"Crouch L\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 249785247845920
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 283482050515135,
+					"parameters": {
+						"key": 70
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 652767976579668,
+					"parameters": {
+						"animation": "\"Crouch R\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 422273174542825,
+					"parameters": {
+						"animation": "\"Rampino R\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 404579954406872
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 325118878628262,
+					"parameters": {
+						"key": 70
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 381525585953768,
+					"parameters": {
+						"animation": "\"idle\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 245777336441865,
+					"parameters": {
+						"animation": "\"Rampino R\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 435846885176028
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 925541077094653,
+					"parameters": {
+						"key": 70
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 716253882689853,
+					"parameters": {
+						"animation": "\"Walk R\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 285969803087570,
+					"parameters": {
+						"animation": "\"Rampino R\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 515069480590646
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 157705657583657,
+					"parameters": {
+						"key": 70
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 229729168525329,
+					"parameters": {
+						"animation": "\"Crouch L\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 392211573225140,
+					"parameters": {
+						"animation": "\"Rampino L\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 780207009478811
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 345274998051163,
+					"parameters": {
+						"key": 70
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 482781094799127,
+					"parameters": {
+						"animation": "\"idle L\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 619872426189060,
+					"parameters": {
+						"animation": "\"Rampino L\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 752901500265230
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 471023359116947,
+					"parameters": {
+						"key": 70
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 467795475380425,
+					"parameters": {
+						"animation": "\"Walk L\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 297297194484392,
+					"parameters": {
+						"animation": "\"Rampino L\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 174853497905018
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 744016152805828,
+					"parameters": {
+						"animation": "\"Rampino L\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Sprite",
+					"sid": 396049511984173,
+					"parameters": {
+						"object": "ArmFront",
+						"layer": "\"Characters\"",
+						"image-point": "\"Arm L\""
+					}
+				}
+			],
+			"sid": 160923586987998,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite",
+							"sid": 265622242622837,
+							"parameters": {
+								"animation": "\"Rampino L\""
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "ArmFront",
+							"sid": 296973550852159
+						}
+					],
+					"sid": 411185895088431
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite",
+					"sid": 415842477769171,
+					"parameters": {
+						"animation": "\"Rampino R\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Sprite",
+					"sid": 175727220183908,
+					"parameters": {
+						"object": "ArmBack",
+						"layer": "\"Characters\"",
+						"image-point": "\"Arm R\""
+					}
+				}
+			],
+			"sid": 322282904389184,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite",
+							"sid": 972247620850990,
+							"parameters": {
+								"animation": "\"Rampino L\""
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "ArmBack",
+							"sid": 848799846930519
+						}
+					],
+					"sid": 871776227286092
+				}
+			]
 		}
 	],
 	"sid": 543682759848282

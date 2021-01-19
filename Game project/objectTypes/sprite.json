@@ -13,8 +13,8 @@
 					{
 						"width": 423,
 						"height": 827,
-						"originX": 0.508274231678487,
-						"originY": 0.9879081015719468,
+						"originX": 0.4326241134751773,
+						"originY": 0.9637243047158404,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -36,7 +36,7 @@
 								0.6004728132387708,
 								0.9770253929866993,
 								0.20212765957446818,
-								0.9903264812575574,
+								0.9806529625151148,
 								0.1678486997635934,
 								0.6154776299879087,
 								0.004728132387706834,
@@ -666,8 +666,8 @@
 					{
 						"width": 423,
 						"height": 827,
-						"originX": 0.49172576832151305,
-						"originY": 0.9879081015719468,
+						"originX": 0.5602836879432624,
+						"originY": 0.9758162031438936,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -702,6 +702,192 @@
 				],
 				"sid": 963220172610853,
 				"name": "idle L",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 349,
+						"height": 685,
+						"originX": 0.5096551724137931,
+						"originY": 0.9494708091498805,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2499779,
+						"collisionPoly": {
+							"points": [
+								0.23241379310344829,
+								0.11505633321952885,
+								0.5,
+								0.015363605326049846,
+								0.6200000000000001,
+								0.18777739842949812,
+								0.9510344827586207,
+								0.5,
+								0.4324137931034483,
+								0.7190167292591328,
+								0.5,
+								0.99863434619324,
+								0.2082758620689655,
+								0.896551724137931,
+								0.31999999999999995,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 723835551496450,
+				"name": "Crouch L",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 350,
+						"height": 685,
+						"originX": 0.5066582117945466,
+						"originY": 0.9464163822525598,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6597682,
+						"collisionPoly": {
+							"points": [
+								0.26285714285714284,
+								0.1343065693430657,
+								0.5,
+								0.021897810218978103,
+								0.7571428571428571,
+								0.12262773722627737,
+								0.7428571428571429,
+								0.5,
+								0.7857142857142857,
+								0.8905109489051095,
+								0.5,
+								0.997080291970803,
+								0.56,
+								0.7124087591240876,
+								0.02,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 340935030129013,
+				"name": "Crouch R",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 421,
+						"height": 827,
+						"originX": 0.4014251781472684,
+						"originY": 0.966142684401451,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9785848,
+						"collisionPoly": {
+							"points": [
+								0.31353512278697887,
+								0.15996503496503497,
+								0.5,
+								0.010198135198135198,
+								0.5808109651627641,
+								0.21357808857808858,
+								0.5419760137064534,
+								0.5,
+								0.5408338092518561,
+								0.7657342657342657,
+								0.5,
+								0.9828088578088578,
+								0.2027412906910337,
+								0.8962703962703963,
+								0.06853226727584237,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Arm R",
+								"x": 0.501187648456057,
+								"y": 0.2309552599758162
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 607255342274757,
+				"name": "Rampino R",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 426,
+						"height": 827,
+						"originX": 0.57981220657277,
+						"originY": 0.973397823458283,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4543192,
+						"collisionPoly": {
+							"points": [
+								0.3156408808582722,
+								0.16287878787878787,
+								0.5,
+								0.0026223776223776225,
+								0.6572557876905702,
+								0.17657342657342656,
+								0.6775832862789385,
+								0.5,
+								0.7594579333709769,
+								0.8758741258741258,
+								0.5,
+								0.9828088578088578,
+								0.4330886504799548,
+								0.7762237762237763,
+								0.18351214003387917,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Arm L",
+								"x": 0.7394366197183099,
+								"y": 0.2430471584038694
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 527284638940872,
+				"name": "Rampino L",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

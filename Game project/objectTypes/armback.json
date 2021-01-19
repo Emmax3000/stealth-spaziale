@@ -1,0 +1,49 @@
+{
+	"name": "ArmBack",
+	"plugin-id": "Sprite",
+	"sid": 725638726540513,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 106,
+						"height": 185,
+						"originX": -0.06307617661329457,
+						"originY": 0.06037448106413623,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 975226,
+						"collisionPoly": {
+							"points": [
+								0.2824949588490776,
+								0.9470700108845765,
+								0.7108866629195358,
+								1,
+								0,
+								1,
+								0.22451713423803799,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 785762454936624,
+				"name": "Animation 2",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
