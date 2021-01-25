@@ -1,0 +1,70 @@
+{
+	"name": "BotProvvisorio",
+	"plugin-id": "Sprite",
+	"sid": 537358284670959,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "State",
+			"type": "string",
+			"desc": "\"Left, Right\"",
+			"sid": 949036004171166
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 754873113923880
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 450,
+						"height": 512,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7805843,
+						"collisionPoly": {
+							"points": [
+								0.05888888888888894,
+								0.1298828125,
+								0.46111111111111125,
+								0.103515625,
+								0.7944444444444445,
+								0.0244140625,
+								0.9811111111111112,
+								0.34375,
+								0.9688888888888886,
+								0.5625,
+								0.7499999999999994,
+								0.900390625,
+								0.3899999999999999,
+								0.982421875,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 136176150555558,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

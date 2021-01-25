@@ -80,7 +80,13 @@
 			"Sprite",
 			"Keyboard",
 			"ArmFront",
-			"ArmBack"
+			"ArmBack",
+			"GuardiaBox",
+			"GuardiaProvvisorio",
+			"BotBox",
+			"BotProvvisorio",
+			"DroneBox",
+			"DroneProvvisorio"
 		],
 		"subfolders": []
 	},
@@ -88,8 +94,8 @@
 	"containers": [
 		{
 			"members": [
-				"ArmFront",
 				"ArmBack",
+				"ArmFront",
 				"Sprite"
 			],
 			"selectMode": "normal"

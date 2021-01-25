@@ -1,0 +1,50 @@
+{
+	"name": "GuardiaBox",
+	"plugin-id": "Sprite",
+	"sid": 477815573238982,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "State",
+			"type": "string",
+			"desc": "\"Left, Right\"",
+			"sid": 864608133310137
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 859569517516002
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 180,
+						"height": 320,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6731077,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 922448341128878,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

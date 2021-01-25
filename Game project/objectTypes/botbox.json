@@ -1,0 +1,50 @@
+{
+	"name": "BotBox",
+	"plugin-id": "Sprite",
+	"sid": 214314741620156,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "State",
+			"type": "string",
+			"desc": "\"Left, Right\"",
+			"sid": 158067736054885
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 676320801810729
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 618223,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 769000702469230,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"name": "DroneProvvisorio",
+	"plugin-id": "Sprite",
+	"sid": 440013345066557,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "State",
+			"type": "string",
+			"desc": "\"Left, Right\"",
+			"sid": 189040789618284
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 541564046529959
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 409,
+						"height": 434,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5155098,
+						"collisionPoly": {
+							"points": [
+								0.24144254278728608,
+								0.031682027649769545,
+								0.5,
+								0.020737327188940093,
+								0.9235941320293402,
+								0.2770737327188939,
+								0.7805623471882641,
+								0.5950460829493087,
+								0.6454767726161369,
+								0.6658986175115207,
+								0.44804400977995085,
+								0.9700460829493088,
+								0.32885085574572126,
+								0.8058755760368663,
+								0.08985330073349637,
+								0.2494239631336418
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 588228345602823,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

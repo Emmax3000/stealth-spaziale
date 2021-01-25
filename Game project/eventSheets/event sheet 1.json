@@ -15,6 +15,7 @@
 					"id": "spawn-another-object",
 					"objectClass": "Sprite",
 					"sid": 889260795411176,
+					"disabled": true,
 					"parameters": {
 						"object": "AvatarBox",
 						"layer": "\"Characters\"",
@@ -748,6 +749,435 @@
 					"sid": 871776227286092
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "GuardiaBox",
+					"sid": 233498703722893
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "GuardiaBox",
+					"sid": 933208391366067,
+					"parameters": {
+						"object": "GuardiaProvvisorio",
+						"layer": "\"Characters\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "GuardiaProvvisorio",
+					"sid": 926947299340712,
+					"parameters": {
+						"object": "GuardiaBox",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "GuardiaProvvisorio",
+					"sid": 729980202084069,
+					"parameters": {
+						"child": "GuardiaBox",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": false,
+						"transform-h": false,
+						"transform-a": false,
+						"transform-z-elevation": false,
+						"destroy-with-parent": true
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "GuardiaProvvisorio",
+					"sid": 285024799725173,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 727381215766993
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "GuardiaBox",
+					"sid": 885935187728596,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Left\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "GuardiaBox",
+					"sid": 871589593427866,
+					"parameters": {
+						"child": "GuardiaProvvisorio",
+						"which": "own"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "GuardiaBox",
+					"sid": 631302834946973,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "GuardiaProvvisorio",
+					"sid": 131867371478502,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 994561403935181
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "GuardiaBox",
+					"sid": 575068248073395,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Right\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "GuardiaBox",
+					"sid": 820924035325080,
+					"parameters": {
+						"child": "GuardiaProvvisorio",
+						"which": "own"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "GuardiaBox",
+					"sid": 873773119471485,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "GuardiaProvvisorio",
+					"sid": 151740900068378,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 987738402615243
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "BotBox",
+					"sid": 590523672706653
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "BotBox",
+					"sid": 914141208577884,
+					"parameters": {
+						"object": "BotProvvisorio",
+						"layer": "\"Characters\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "BotProvvisorio",
+					"sid": 248669625386725,
+					"parameters": {
+						"object": "BotBox",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "BotProvvisorio",
+					"sid": 514717460927042,
+					"parameters": {
+						"child": "BotBox",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": false,
+						"transform-h": false,
+						"transform-a": false,
+						"transform-z-elevation": false,
+						"destroy-with-parent": true
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BotProvvisorio",
+					"sid": 509138819564534,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 643429801122199
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "BotBox",
+					"sid": 480453808115708,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Left\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "BotBox",
+					"sid": 543965380277997,
+					"parameters": {
+						"child": "BotProvvisorio",
+						"which": "own"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "BotBox",
+					"sid": 750287750418470,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BotProvvisorio",
+					"sid": 678111075249418,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 505379967910985
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "BotBox",
+					"sid": 817933838242677,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Right\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "BotBox",
+					"sid": 247630136051992,
+					"parameters": {
+						"child": "BotProvvisorio",
+						"which": "own"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "BotBox",
+					"sid": 590668672822804,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BotProvvisorio",
+					"sid": 414947793904638,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 776726569332750
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "DroneBox",
+					"sid": 884535069904234
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "DroneBox",
+					"sid": 461446885234170,
+					"parameters": {
+						"object": "DroneProvvisorio",
+						"layer": "\"Characters\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "DroneProvvisorio",
+					"sid": 811837781688152,
+					"parameters": {
+						"object": "DroneBox",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "DroneProvvisorio",
+					"sid": 315324246985151,
+					"parameters": {
+						"child": "DroneBox",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": false,
+						"transform-h": false,
+						"transform-a": false,
+						"transform-z-elevation": false,
+						"destroy-with-parent": true
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DroneProvvisorio",
+					"sid": 401948273370915,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 922810534734312
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "DroneBox",
+					"sid": 606342228750057,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Left\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "DroneBox",
+					"sid": 799135319428042,
+					"parameters": {
+						"child": "DroneProvvisorio",
+						"which": "own"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "DroneBox",
+					"sid": 148206157940639,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "DroneProvvisorio",
+					"sid": 835655333376243,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 690667490529044
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "DroneBox",
+					"sid": 112193202540521,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Right\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "DroneBox",
+					"sid": 981211345655087,
+					"parameters": {
+						"child": "DroneProvvisorio",
+						"which": "own"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "DroneBox",
+					"sid": 333737736937703,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "DroneProvvisorio",
+					"sid": 964846807195527,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 577554171457207
 		}
 	],
 	"sid": 543682759848282
