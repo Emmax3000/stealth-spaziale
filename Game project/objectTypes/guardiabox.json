@@ -1,21 +1,34 @@
 {
 	"name": "GuardiaBox",
 	"plugin-id": "Sprite",
+<<<<<<< Updated upstream
 	"sid": 477815573238982,
+=======
+	"sid": 668051183182007,
+>>>>>>> Stashed changes
 	"isGlobal": false,
 	"instanceVariables": [
 		{
 			"name": "State",
 			"type": "string",
 			"desc": "\"Left, Right\"",
+<<<<<<< Updated upstream
 			"sid": 864608133310137
+=======
+			"sid": 212685830857250
+>>>>>>> Stashed changes
 		}
 	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",
+<<<<<<< Updated upstream
 			"name": "Platform",
 			"sid": 859569517516002
+=======
+			"name": "Piattaforme",
+			"sid": 202048131504151
+>>>>>>> Stashed changes
 		}
 	],
 	"effectTypes": [],
@@ -31,12 +44,20 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 						"imageSpriteId": 6731077,
+=======
+						"imageSpriteId": 3582529,
+>>>>>>> Stashed changes
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
+<<<<<<< Updated upstream
 				"sid": 922448341128878,
+=======
+				"sid": 288866493365125,
+>>>>>>> Stashed changes
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

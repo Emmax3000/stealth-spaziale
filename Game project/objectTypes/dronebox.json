@@ -1,21 +1,33 @@
 {
 	"name": "DroneBox",
 	"plugin-id": "Sprite",
+<<<<<<< Updated upstream
 	"sid": 444624548903299,
+=======
+	"sid": 369304433302024,
+>>>>>>> Stashed changes
 	"isGlobal": false,
 	"instanceVariables": [
 		{
 			"name": "State",
 			"type": "string",
 			"desc": "\"Left, Right\"",
+<<<<<<< Updated upstream
 			"sid": 654196693193286
+=======
+			"sid": 678407844618988
+>>>>>>> Stashed changes
 		}
 	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",
 			"name": "Platform",
+<<<<<<< Updated upstream
 			"sid": 764884265992414
+=======
+			"sid": 339486823952601
+>>>>>>> Stashed changes
 		}
 	],
 	"effectTypes": [],
@@ -24,19 +36,32 @@
 			{
 				"frames": [
 					{
+<<<<<<< Updated upstream
 						"width": 300,
 						"height": 160,
+=======
+						"width": 250,
+						"height": 150,
+>>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 						"imageSpriteId": 405885,
+=======
+						"imageSpriteId": 3821457,
+>>>>>>> Stashed changes
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
+<<<<<<< Updated upstream
 				"sid": 424616482924657,
+=======
+				"sid": 257861171658611,
+>>>>>>> Stashed changes
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

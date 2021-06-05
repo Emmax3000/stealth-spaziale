@@ -1,21 +1,33 @@
 {
 	"name": "BotBox",
 	"plugin-id": "Sprite",
+<<<<<<< Updated upstream
 	"sid": 214314741620156,
+=======
+	"sid": 569312198818600,
+>>>>>>> Stashed changes
 	"isGlobal": false,
 	"instanceVariables": [
 		{
 			"name": "State",
 			"type": "string",
 			"desc": "\"Left, Right\"",
+<<<<<<< Updated upstream
 			"sid": 158067736054885
+=======
+			"sid": 603578685850507
+>>>>>>> Stashed changes
 		}
 	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",
 			"name": "Platform",
+<<<<<<< Updated upstream
 			"sid": 676320801810729
+=======
+			"sid": 692125517479623
+>>>>>>> Stashed changes
 		}
 	],
 	"effectTypes": [],
@@ -31,12 +43,20 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 						"imageSpriteId": 618223,
+=======
+						"imageSpriteId": 2504928,
+>>>>>>> Stashed changes
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
+<<<<<<< Updated upstream
 				"sid": 769000702469230,
+=======
+				"sid": 515673216103010,
+>>>>>>> Stashed changes
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -79,14 +79,25 @@
 			"AvatarBox",
 			"Sprite",
 			"Keyboard",
+<<<<<<< Updated upstream
 			"ArmFront",
 			"ArmBack",
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 			"GuardiaBox",
 			"GuardiaProvvisorio",
 			"BotBox",
 			"BotProvvisorio",
 			"DroneBox",
 			"DroneProvvisorio"
+<<<<<<< Updated upstream
+=======
+=======
+			"ArmFront",
+			"ArmBack"
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
@@ -94,8 +105,13 @@
 	"containers": [
 		{
 			"members": [
+<<<<<<< Updated upstream
 				"ArmBack",
 				"ArmFront",
+=======
+				"ArmFront",
+				"ArmBack",
+>>>>>>> Stashed changes
 				"Sprite"
 			],
 			"selectMode": "normal"

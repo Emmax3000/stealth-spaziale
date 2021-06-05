@@ -1,6 +1,7 @@
 {
 	"name": "BotProvvisorio",
 	"plugin-id": "Sprite",
+<<<<<<< Updated upstream
 	"sid": 537358284670959,
 	"isGlobal": false,
 	"instanceVariables": [
@@ -11,11 +12,20 @@
 			"sid": 949036004171166
 		}
 	],
+=======
+	"sid": 678401870501657,
+	"isGlobal": false,
+	"instanceVariables": [],
+>>>>>>> Stashed changes
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",
 			"name": "Platform",
+<<<<<<< Updated upstream
 			"sid": 754873113923880
+=======
+			"sid": 420630270233738
+>>>>>>> Stashed changes
 		}
 	],
 	"effectTypes": [],
@@ -31,6 +41,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 						"imageSpriteId": 7805843,
 						"collisionPoly": {
 							"points": [
@@ -48,6 +59,25 @@
 								0.900390625,
 								0.3899999999999999,
 								0.982421875,
+=======
+						"imageSpriteId": 5661687,
+						"collisionPoly": {
+							"points": [
+								0.27555555555555555,
+								0.2421875,
+								0.5,
+								0.162109375,
+								0.8666666666666667,
+								0.115234375,
+								0.9866666666666667,
+								0.5,
+								0.8022222222222222,
+								0.826171875,
+								0.5,
+								0.890625,
+								0.24,
+								0.787109375,
+>>>>>>> Stashed changes
 								0,
 								0.5
 							]
@@ -56,7 +86,11 @@
 						"duration": 1
 					}
 				],
+<<<<<<< Updated upstream
 				"sid": 136176150555558,
+=======
+				"sid": 717284201944382,
+>>>>>>> Stashed changes
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

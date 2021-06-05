@@ -1,6 +1,7 @@
 {
 	"name": "DroneProvvisorio",
 	"plugin-id": "Sprite",
+<<<<<<< Updated upstream
 	"sid": 440013345066557,
 	"isGlobal": false,
 	"instanceVariables": [
@@ -11,11 +12,20 @@
 			"sid": 189040789618284
 		}
 	],
+=======
+	"sid": 739511926925969,
+	"isGlobal": false,
+	"instanceVariables": [],
+>>>>>>> Stashed changes
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",
 			"name": "Platform",
+<<<<<<< Updated upstream
 			"sid": 541564046529959
+=======
+			"sid": 790073361046268
+>>>>>>> Stashed changes
 		}
 	],
 	"effectTypes": [],
@@ -31,6 +41,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 						"imageSpriteId": 5155098,
 						"collisionPoly": {
 							"points": [
@@ -50,13 +61,38 @@
 								0.8058755760368663,
 								0.08985330073349637,
 								0.2494239631336418
+=======
+						"imageSpriteId": 1596520,
+						"collisionPoly": {
+							"points": [
+								0.13447432762836187,
+								0.12672811059907835,
+								0.5,
+								0.020737327188940093,
+								0.80440097799511,
+								0.18202764976958524,
+								0.7408312958435208,
+								0.5,
+								0.6454767726161369,
+								0.6658986175115207,
+								0.5,
+								0.8548387096774194,
+								0.33496332518337407,
+								0.6820276497695853,
+								0.30073349633251834,
+								0.5
+>>>>>>> Stashed changes
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
+<<<<<<< Updated upstream
 				"sid": 588228345602823,
+=======
+				"sid": 837328590186935,
+>>>>>>> Stashed changes
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

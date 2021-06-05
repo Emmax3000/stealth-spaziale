@@ -233,16 +233,76 @@
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "on-created",
+					"objectClass": "GuardiaBox",
+					"sid": 321906739521757
+=======
+>>>>>>> Stashed changes
 					"id": "on-key-released",
 					"objectClass": "Keyboard",
 					"sid": 706717421575947,
 					"parameters": {
 						"key": 40
 					}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 				}
 			],
 			"actions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "spawn-another-object",
+					"objectClass": "GuardiaProvvisorio",
+					"sid": 304388181739890,
+					"parameters": {
+						"object": "GuardiaBox",
+						"layer": "\"Characters\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "GuardiaBox",
+					"sid": 134471207765969,
+					"parameters": {
+						"object": "GuardiaProvvisorio",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "GuardiaBox",
+					"sid": 258267114284670,
+					"parameters": {
+						"child": "GuardiaProvvisorio",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": false,
+						"transform-h": false,
+						"transform-a": false,
+						"transform-z-elevation": false,
+						"destroy-with-parent": true
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "GuardiaBox",
+					"sid": 126897247005686,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 678977451019204
+=======
+>>>>>>> Stashed changes
 					"id": "set-animation",
 					"objectClass": "Sprite",
 					"sid": 388544631820606,
@@ -286,11 +346,36 @@
 				}
 			],
 			"sid": 323045307885186
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "compare-instance-variable",
+					"objectClass": "GuardiaBox",
+					"sid": 182315696840948,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Left\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "GuardiaBox",
+					"sid": 125639208879481,
+					"parameters": {
+						"child": "GuardiaProvvisorio",
+						"which": "own"
+=======
+>>>>>>> Stashed changes
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
 					"sid": 302335746381022,
@@ -304,11 +389,38 @@
 					"sid": 480681938525724,
 					"parameters": {
 						"animation": "\"idle\""
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 					}
 				}
 			],
 			"actions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "simulate-control",
+					"objectClass": "GuardiaBox",
+					"sid": 539298531085414,
+					"behaviorType": "Piattaforme",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "GuardiaProvvisorio",
+					"sid": 986222272640527,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 327388546470014
+=======
+>>>>>>> Stashed changes
 					"id": "set-animation",
 					"objectClass": "Sprite",
 					"sid": 857279373141971,
@@ -319,11 +431,36 @@
 				}
 			],
 			"sid": 916864347033172
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "compare-instance-variable",
+					"objectClass": "GuardiaBox",
+					"sid": 268282249785932,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Right\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "GuardiaBox",
+					"sid": 190486855133189,
+					"parameters": {
+						"child": "GuardiaProvvisorio",
+						"which": "own"
+=======
+>>>>>>> Stashed changes
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
 					"sid": 426094940724436,
@@ -337,11 +474,38 @@
 					"sid": 146069968354396,
 					"parameters": {
 						"animation": "\"Walk R\""
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 					}
 				}
 			],
 			"actions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "simulate-control",
+					"objectClass": "GuardiaBox",
+					"sid": 630654142479186,
+					"behaviorType": "Piattaforme",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "GuardiaProvvisorio",
+					"sid": 467047537303731,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 294410241782605
+=======
+>>>>>>> Stashed changes
 					"id": "set-animation",
 					"objectClass": "Sprite",
 					"sid": 244498322132638,
@@ -352,11 +516,23 @@
 				}
 			],
 			"sid": 803075415474602
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "on-created",
+					"objectClass": "BotBox",
+					"sid": 940666386449530
+=======
+>>>>>>> Stashed changes
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
 					"sid": 554796765380232,
@@ -371,10 +547,62 @@
 					"parameters": {
 						"animation": "\"Rampino L\""
 					}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 				}
 			],
 			"actions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "spawn-another-object",
+					"objectClass": "BotProvvisorio",
+					"sid": 438090206512191,
+					"parameters": {
+						"object": "BotBox",
+						"layer": "\"Characters\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "BotBox",
+					"sid": 760673556577332,
+					"parameters": {
+						"object": "BotProvvisorio",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "BotBox",
+					"sid": 175856187574850,
+					"parameters": {
+						"child": "BotProvvisorio",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": false,
+						"transform-h": false,
+						"transform-a": false,
+						"transform-z-elevation": false,
+						"destroy-with-parent": true
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BotBox",
+					"sid": 244459695952174,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 885594506592334
+=======
+>>>>>>> Stashed changes
 					"id": "set-animation",
 					"objectClass": "Sprite",
 					"sid": 188287748695109,
@@ -418,11 +646,36 @@
 				}
 			],
 			"sid": 740377652206119
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "compare-instance-variable",
+					"objectClass": "BotBox",
+					"sid": 111572129421810,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Left\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "BotBox",
+					"sid": 340612506222710,
+					"parameters": {
+						"child": "BotProvvisorio",
+						"which": "own"
+=======
+>>>>>>> Stashed changes
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
 					"sid": 164929495886932,
@@ -436,11 +689,38 @@
 					"sid": 982515324987884,
 					"parameters": {
 						"animation": "\"Walk L\""
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 					}
 				}
 			],
 			"actions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "simulate-control",
+					"objectClass": "BotBox",
+					"sid": 840875645085491,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BotProvvisorio",
+					"sid": 867333066827506,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 584630081324283
+=======
+>>>>>>> Stashed changes
 					"id": "set-animation",
 					"objectClass": "Sprite",
 					"sid": 271565395959317,
@@ -451,11 +731,36 @@
 				}
 			],
 			"sid": 249785247845920
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "compare-instance-variable",
+					"objectClass": "BotBox",
+					"sid": 468798088832773,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Right\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "BotBox",
+					"sid": 755886254438817,
+					"parameters": {
+						"child": "BotProvvisorio",
+						"which": "own"
+=======
+>>>>>>> Stashed changes
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
 					"sid": 283482050515135,
@@ -469,11 +774,38 @@
 					"sid": 652767976579668,
 					"parameters": {
 						"animation": "\"Crouch R\""
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 					}
 				}
 			],
 			"actions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "simulate-control",
+					"objectClass": "BotBox",
+					"sid": 627598588496809,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BotProvvisorio",
+					"sid": 254604642104493,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 796565857915136
+=======
+>>>>>>> Stashed changes
 					"id": "set-animation",
 					"objectClass": "Sprite",
 					"sid": 422273174542825,
@@ -517,11 +849,23 @@
 				}
 			],
 			"sid": 435846885176028
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "on-created",
+					"objectClass": "DroneBox",
+					"sid": 378027703876418
+=======
+>>>>>>> Stashed changes
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
 					"sid": 925541077094653,
@@ -536,10 +880,62 @@
 					"parameters": {
 						"animation": "\"Walk R\""
 					}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 				}
 			],
 			"actions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "spawn-another-object",
+					"objectClass": "DroneProvvisorio",
+					"sid": 953097641800023,
+					"parameters": {
+						"object": "DroneBox",
+						"layer": "\"Characters\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "DroneBox",
+					"sid": 778528665050989,
+					"parameters": {
+						"object": "DroneProvvisorio",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "DroneBox",
+					"sid": 817514145592984,
+					"parameters": {
+						"child": "DroneProvvisorio",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": false,
+						"transform-h": false,
+						"transform-a": false,
+						"transform-z-elevation": false,
+						"destroy-with-parent": true
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DroneBox",
+					"sid": 425299838893598,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 285115639726938
+=======
+>>>>>>> Stashed changes
 					"id": "set-animation",
 					"objectClass": "Sprite",
 					"sid": 285969803087570,
@@ -583,11 +979,36 @@
 				}
 			],
 			"sid": 780207009478811
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "compare-instance-variable",
+					"objectClass": "DroneBox",
+					"sid": 732474385358924,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Left\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "DroneBox",
+					"sid": 843167257240838,
+					"parameters": {
+						"child": "DroneProvvisorio",
+						"which": "own"
+=======
+>>>>>>> Stashed changes
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
 					"sid": 345274998051163,
@@ -601,17 +1022,50 @@
 					"sid": 482781094799127,
 					"parameters": {
 						"animation": "\"idle L\""
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 					}
 				}
 			],
 			"actions": [
 				{
+<<<<<<< Updated upstream
 					"id": "set-animation",
 					"objectClass": "Sprite",
 					"sid": 619872426189060,
 					"parameters": {
 						"animation": "\"Rampino L\"",
 						"from": "beginning"
+=======
+<<<<<<< HEAD
+					"id": "simulate-control",
+					"objectClass": "DroneBox",
+					"sid": 238469857296171,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "DroneProvvisorio",
+					"sid": 730772579539595,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 213090997988199
+=======
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 619872426189060,
+					"parameters": {
+						"animation": "\"Rampino L\"",
+						"from": "beginning"
+>>>>>>> Stashed changes
 					}
 				}
 			],
@@ -649,11 +1103,59 @@
 				}
 			],
 			"sid": 174853497905018
+<<<<<<< Updated upstream
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+					"id": "compare-instance-variable",
+					"objectClass": "DroneBox",
+					"sid": 599520383195721,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"Right\""
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "DroneBox",
+					"sid": 848613452302784,
+					"parameters": {
+						"child": "DroneProvvisorio",
+						"which": "own"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "DroneBox",
+					"sid": 594958719459791,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "DroneProvvisorio",
+					"sid": 157438493343219,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 903024776075331
+=======
+>>>>>>> Stashed changes
 					"id": "is-animation-playing",
 					"objectClass": "Sprite",
 					"sid": 744016152805828,
@@ -749,6 +1251,7 @@
 					"sid": 871776227286092
 				}
 			]
+<<<<<<< Updated upstream
 		},
 		{
 			"eventType": "block",
@@ -1178,6 +1681,9 @@
 				}
 			],
 			"sid": 577554171457207
+=======
+>>>>>>> 69d0f935155eb7e21ad86023bf618aae86607cdc
+>>>>>>> Stashed changes
 		}
 	],
 	"sid": 543682759848282
